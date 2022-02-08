@@ -12,7 +12,7 @@ namespace ConsoleApp2
 	{
 		public static void Main()
 		{
-            Console.WriteLine("Выберите пункт меню:\n1 - Отобразить товар\n2 - Добавить товар\n3 - Редактировать товар\n4 - Удалить товар");
+			Console.WriteLine("Выберите пункт меню:\n1 - Отобразить товар\n2 - Добавить товар\n3 - Редактировать товар\n4 - Удалить товар");
 			int PoinMenu = int.Parse(Console.ReadLine());
             switch (PoinMenu)
             {
